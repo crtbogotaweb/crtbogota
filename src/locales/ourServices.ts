@@ -28,17 +28,17 @@ export const itemsOurServices = [
 export const itemsServices = [
     {
         title: "Impermeabilización de:",
-        list: ["Tejas plásticas", "Marquesinas de policarbonato", "Marquesinas de vidrio", "Marquesinas acrílicas", "Domos", "Pérgolas", "Galvanizado"],
+        list: ["Placas", "Tejas en fibroasbesto", "Tejas en fibrocemento", "Tejas plásticas", "Marquesinas de policarbonato", "Marquesinas de vidrio", "Marquesinas acrílicas", "Domos", "Pérgolas", "Galvanizado", "Vigas canales", "Culatas", "Sistema de flanches"],
         image: img_ourService_1
     },
     {
         title: "Reparación de:",
-        list: ["Tejas de barro", "Teja termoacústica", "teja de fibrocemento", "Teja de shingle"],
+        list: ["Tejas de barro", "Teja termoacústica", "Teja de fibrocemento", "Teja de shingle", "Tejas en fibroasbesto", "Domos", "Pérgolas", "Tejas plásticas", "Marquesinas de policarbonato"],
         image: img_ourService_2
     },
     {
         title: "Instalación de:",
-        list: ["Tejas plásticas", "Marquesinas de policarbonato", "Marquesinas de vidrio", "Marquesinas acrílicas", "Domos", "Pérgolas", "Galvanizado"],
+        list: ["Tejas plásticas", "Marquesinas de policarbonato", "Marquesinas de vidrio", "Marquesinas acrílicas", "Domos", "Pérgolas", "Galvanizado", "Teja de fibrocemento", "Teja de shingle"],
         image: img_ourService_3
     }
 ]

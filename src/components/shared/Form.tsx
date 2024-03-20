@@ -22,7 +22,7 @@ const Form = () => {
       <input
         type="hidden"
         name="_next"
-        value="https://crtprueba.netlify.app/#/true"
+        value="https://main--crtbogota.netlify.app/#/true"
       ></input>
       <input type="hidden" name="_captcha" value="false"></input>
       <button type="submit" className="button">
