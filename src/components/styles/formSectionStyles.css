@@ -1,0 +1,48 @@
+.formSection_container{
+    background-image: url('./../../assets/bg-form.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.formSection_content{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0, .9) ;
+}
+
+.formSection_content .container{
+    padding: 3rem 2rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.formSection_content .container section h3{
+    color: var(--WHITE);
+    text-align: left;
+    font-size: var(--FONT_SIZE_TITLE);
+}
+
+.formSection_content .container section h3:nth-last-child(1){
+    color: var(--SECONDARY);
+}
+
+form{
+    width: 100%;
+    display: grid;
+    gap: .5rem;
+}
+
+.form input, .form textarea{
+    border: none;
+    padding: .2rem .5rem;
+}
+
+.form input{
+    height: 40px;
+}
+
+@media (min-width: 1080px){
+    .formSection_content .container{
+        grid-template-columns: 1fr 1fr;
+    }
+}

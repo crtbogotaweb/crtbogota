@@ -1,0 +1,15 @@
+header{
+    height: 25px;
+    background-image: url('./../../assets/meterWallpaper.png');
+    background-size: contain;
+    background-position: top;
+    background-repeat: repeat-x;
+}
+
+.toUpMeterBackground{
+    height: 25px;
+    background-image: url('./../../assets/toUpMeterWallpaper.png');
+    background-size: contain;
+    background-position: top;
+    background-repeat: repeat-x;
+}

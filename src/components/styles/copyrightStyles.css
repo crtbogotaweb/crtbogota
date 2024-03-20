@@ -1,0 +1,15 @@
+.copyright{
+    background: var(--PRIMARY);
+    padding: 10px;
+}
+
+.copyright p{
+    font-size: 11px;
+    text-align: center;
+    color: var(--WHITE);
+}
+
+.copyright p a{
+    text-decoration: none;
+    color:var(--SECONDARY);
+}

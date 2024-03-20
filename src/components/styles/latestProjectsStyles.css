@@ -1,0 +1,12 @@
+.latestProjects_imgs_container{
+    margin-top: 3rem;
+    display: grid;
+    gap: 1rem;
+}
+
+@media (min-width: 1000px){
+    .latestProjects_imgs_container{
+        gap: 0;
+        grid-template-columns: 1fr 1fr;
+    }
+}

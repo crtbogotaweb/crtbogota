@@ -1,0 +1,27 @@
+.socialFloatIcons_container{
+    position: fixed;
+    bottom: 70px;
+    right: -40px;
+    transition: right 350ms;
+
+    display: grid;
+    gap: .5rem;
+}
+
+.show_icons{
+    right: 20px;
+}
+
+.socialFloatIcons_container a{
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialFloatIcons_container a i{
+    color: var(--WHITE);
+}
